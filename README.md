@@ -19,4 +19,4 @@ replace "number:(\d)" "digit:$1" ../libs -- \*.{cpp,h} --now
 ```
 
 ## Example
-![image](https://user-images.githubusercontent.com/1030961/113558647-55e26980-9600-11eb-8a12-12d1baac2ab2.png)
+![image](https://user-images.githubusercontent.com/1030961/113558944-d43f0b80-9600-11eb-951d-18f9e8492909.png)
