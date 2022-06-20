@@ -82,7 +82,7 @@ if ($dry) {
     }
 }
 else {
-    my $grep_command = "git grep -lIP '$bash_escaped_find' $bash_literal_remaining";
+    my $grep_command = "git grep --no-color -lIP '$bash_escaped_find' $bash_literal_remaining";
     my $files = `$grep_command`;
     $files = join ' ', (map quotemeta, (split "\n", $files));
     if (length($files) > 0) {
